@@ -1,0 +1,180 @@
+* {
+	padding: 0
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h2 {
+	margin: 0;
+}
+
+/* LANDING PAGE */
+#landing-page {
+	background-image: url('img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.title-background {
+	background: #070707;
+	width: fit-content;
+	margin: auto;
+	padding: 10px;
+}
+
+.title {
+	text-align: center;
+	color: #D0D3D4;
+	font-size: 2em;
+}
+
+/* NAV SLIDER */
+.nav-slider {
+	padding: 15px;
+	cursor: pointer;
+}
+
+.line {
+	background: #eee;
+	height: 3px;
+	margin: 5px;
+	width: 30px;
+}
+
+.line:nth-child {
+	margin-top: 0;
+}
+
+/* NAV SLIDER SECTION */
+.nav-slider-section {
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	transform: translateX(-100%);
+}
+
+.close-nav-slider {
+	border: none;
+	outline: none;
+	float: right;
+	background: transparent;
+	color: #F1C40F;
+	font-size: 1.5em;
+	padding: 30px;
+}
+
+.nav-links-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.nav-links-container li {
+	text-align: center;
+	padding: 10px;
+}
+
+.nav-links {
+	text-decoration: none;
+	color: #eee;
+	font-size: 1.5em;
+}
+
+.openNav {
+	animation: openNav 0.5s forward;
+}
+
+.closeNav {
+	animation: closeNav 0.5s forward;
+}
+
+@keyframes openNav {
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@keyframes closeNav {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+/* MENU */
+#menu {
+	background: #000;
+}
+
+.menu-title {
+	color: #D0D3D4;
+	text-align: center;
+	padding: 25px;
+	font-size: 2em;
+}
+
+p {
+	color: #eee;
+	font-size: 1.1em;
+}
+
+.menu-price {
+	float: right;
+}
+
+/* RESTAURANTE INFOS */
+#restaurant-info {
+	background: #070707;
+	padding: 20px;
+}
+
+.restaurant-info-title {
+	color: #D3CAC8;
+	text-align: center;
+}
+
+.address-content, .business-hours, .contact-content {
+	padding: 10px;
+}
+
+.address, .hours {
+	font-size: 1em !important;
+	text-align: center;
+}
+
+.phone {
+	margin-bottom: 0;
+	font-size: 1em !important;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
